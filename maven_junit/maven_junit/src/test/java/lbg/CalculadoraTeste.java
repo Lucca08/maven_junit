@@ -22,6 +22,7 @@ public class CalculadoraTeste{
     public void sub(){
         assertEquals(0, cal.sub(1,1));
     }
+    @Test
     public void subnot(){
         assertNotEquals(5, cal.add(1,1));
     }
@@ -29,6 +30,7 @@ public class CalculadoraTeste{
     public void div(){
         assertEquals(1, cal.div(1,1));
     }
+    @Test
     public void divnot(){
         assertNotEquals(5, cal.add(1,1));
     }
