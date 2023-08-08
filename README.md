@@ -1,2 +1,2 @@
 # maven_junit
-testes maven e junit
+maven e junit
